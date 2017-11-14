@@ -7,7 +7,7 @@ Developed a comprehensive client-server messaging application which has-
 • concepts of asynchronous messaging
 
 
-Server folder contains file server.py which should be run as "python <IP> <port>" 
+Server folder contains file server.py which should be run as "python 'IP' 'port'" 
 
 It also contains 3 txt files-
 
@@ -18,7 +18,7 @@ It also contains 3 txt files-
 --"stored_message.txt" contains messages recieved by user when he/she was offline. These messages are then sent to him when he comes back 
 online again, thus including concept of asynchronous messaging.
 
-Client folder contains a file client.py which should be run as "python <IP> <port> <user>:<password>"
+Client folder contains a file client.py which should be run as "python 'IP' 'port' 'user':'password'"
 
 
 
